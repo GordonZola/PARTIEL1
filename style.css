@@ -1,0 +1,502 @@
+/*Inserstion des Police necessaire au cours de la maquette*/
+
+@font-face {
+    font-family: "LatoBlack";
+    src: url(police/Lato-Black.ttf); format("TrueType");
+}
+@font-face {
+    font-family: "LatoBold";
+    src: url(police/Lato-Bold.ttf); format("TrueType");
+}
+@font-face {
+    font-family: "LatoLight";
+    src: url(police/Lato-Light.ttf); format("TrueType");
+}
+@font-face {
+    font-family: "LatoRegular";
+    src: url(police/Lato-Regular.ttf); format("TrueType");
+}
+
+.noir{
+    color: #161616;
+}
+
+.orange{
+    color: #fba419;
+}
+
+
+/*Bloc CSS Header*/
+header{
+    background-image: url(img/header.jpg);
+    background-repeat: no-repeat;
+    height: 860px;
+    width: 100%;
+}
+
+.guillemets{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 35px;
+}
+
+.titre1{
+    font-family: LatoBlack;
+    position: absolute;
+    color: white;
+    font-size: xx-large;
+    margin-left: 200px;
+    margin-top: 35px;
+}
+
+.menu{
+    font-family: LatoBold;
+    position: absolute;
+    color: white;
+    margin-left: 700px;
+    margin-top: 35px;
+}
+
+.list1{
+    display: inline-block;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    font-size: small;
+}
+
+.search{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 1400px;
+}
+
+.facebook{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 1460px;
+}
+
+.entete{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 200px;
+}
+
+h1{
+    font-family: LatoBlack;
+    color: white;
+    font-size: 400%;
+}
+
+.paragraphe1{
+    font-family: LatoLight;
+    color: white;
+}
+
+input[type="submit"]{
+    background-color: orange;
+    border: 0;
+    border-radius: 30px;
+    color: white;
+    height: 35px;
+    width: 125px;
+    position: absolute;
+    margin-top: 100px;
+    font-family: LatoBold;
+}
+
+
+
+
+/*Bloc CSS Partie 2*/
+
+.guillemets2{
+    position: absolute;
+}
+
+.quote{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.quote1{
+    font-family: LatoLight;
+}
+
+.quote2{
+    font-family: LatoRegular;
+    margin-left: 0%;
+}
+
+.a1{
+    position: absolute;
+    margin-left: 210px;
+}
+
+.a2{
+    position: absolute;
+}
+
+.pic1{
+    margin-left: 900px;
+}
+
+input[type="submit1"]{
+    background-color: orange;
+    border: 0;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    height: 25px;
+    width: 105px;
+    position: absolute;
+    font-family: LatoBold;
+    font-size: xx-small;
+}
+
+
+
+
+/*Bloc CSS Partie 3*/
+
+.partie3{
+    background-image: url(img/p2.png);
+    background-repeat: no-repeat;
+    height: 860px;
+    width: 100%;
+    margin-top: 650px;
+}
+
+.articlegauche{
+    position: absolute;
+    margin-left: 210px;
+    margin-top: 175px
+}
+
+.articlegauche1{
+    font-family: LatoRegular;
+    color: white;
+}
+
+h3{
+    font-family: LatoRegular;
+    color: orange;
+}
+
+.paragraphe{
+    color: white;
+    font-family: LatoRegular;
+    position: absolute;
+}
+
+.articledroite{
+    margin-left: 800px;
+}
+
+.bloc1{
+    margin-left: 150px;
+    position: relative;
+}
+
+
+
+
+/*Bloc CSS Partie 4*/
+
+.p4gauche{
+    position: absolute;
+    margin-left: 210px;
+}
+
+.tropcool{
+    position: absolute;
+    margin-top: 18px;
+}
+
+.camarche{
+    position: relative;
+    margin-left: 350px;
+}
+
+.imgdansimg{
+    background-image: url(img/p31.png);
+    height: 519px;
+    width: 273px;
+    position: absolute;
+    font-family: LatoRegular;
+    color: white;
+    text-align: center;
+}
+
+.imgdansimg1{
+    background-image: url(img/p32.png);
+    height: 519px;
+    width: 273px;
+    margin-left: 300px;
+    font-family: LatoRegular;
+    color: white;
+    text-align: center;
+}
+
+.p4par1{
+    font-family: LatoRegular;
+    color: white;
+    text-align: center;
+}
+
+.bouton1{
+    text-align: center;
+}
+
+
+.p4droite{
+    margin-left: 875px;
+}
+
+.whatelse{
+    color: black;
+    font-family: LatoBlack;
+}
+
+.else{
+    color: orange;
+    font-family: LatoBlack;
+}
+
+.p4quote{
+    font-family: LatoRegular;
+}
+
+.p4ligne1{
+    font-family: LatoBold;
+}
+
+
+
+/* CSS PARTIE 5*/
+
+.partie5{
+    background-image: url(img/p40.png);
+    background-repeat: no-repeat;
+    height: 860px;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.p5partiehaute{
+    text-align: center;
+}
+
+.p5par1{
+    color: white;
+    font-family: LatoRegular;
+}
+
+.p5portrait{
+    margin-left: 70px;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.p5partiebasse{
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+
+
+/*CSS PARTIE 6*/
+
+.partie6{
+    margin-left: 210px;
+}
+
+.p51{
+    position: absolute;
+}
+
+.choco{
+    margin-left: 500px;
+}
+
+.p6partiebasse{
+    margin-top: 70px;
+}
+
+.p52{
+    position: absolute;
+}
+
+.p53{
+    position: absolute;
+    margin-left: 350px;
+}
+
+.p6par1{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 70px;
+    font-family: LatoRegular;
+}
+
+
+
+
+/*CSS PARTIE 7 */
+
+.partie7{
+    margin-top: 500px;
+}
+
+.p7partiehaute{
+    text-align: center;
+}
+
+.p7par1{
+    font-family: LatoRegular;
+}
+
+.p61{
+    display: inline-block;
+    height: 350px;
+    width: 550px;  
+    margin: 0;
+}
+
+
+
+
+
+/*CSS PARTIE 8*/
+
+.partie8{
+    margin-left: 210px;
+}
+
+.laforme{
+    position: absolute;
+}
+
+.p71{
+    position: absolute;
+    margin-left: 400px;
+}
+
+.guillemets3{
+    position: absolute;
+    margin-left: 840px;
+}
+
+.p8par1{
+    position: absolute;
+    margin-left: 890px;
+}
+
+.p72{
+    position: absolute;
+    margin-top: 250px;
+}
+
+.guillemets4{
+    margin-left: 500px;
+}
+
+
+
+
+/*CSS PARTIE 9 */
+
+.partie9{
+    margin-top: 500px;
+}
+
+.p9partiegauche{
+    background-image: url(img/p8.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 797px;
+    height: 902px;
+}
+
+h2{
+    font-family: LatoBlack;
+}
+
+h6{
+    font-family: LatoBlack;
+    margin-left: 120px;
+}
+
+.logoexpl{
+    font-family: LatoLight;
+    margin-left: 120px;
+}
+
+
+.p9par{
+    float: right;
+}
+
+.p9par2{
+    font-family: LatoRegular;
+}
+    
+
+.p9par1{
+    font-family: LatoRegular;
+    color: white;
+}
+
+.p9partiedroite{
+    margin-left: 850px;
+}
+
+.p9logos{
+    margin-left: 850px;
+}
+
+.p9logo1{
+    position: absolute;
+}
+
+
+.p9logo2{
+    position: absolute;
+}
+
+.p9logo3{
+    position: absolute;
+}
+
+.reseau1{
+    display: inline-block;
+    height: 30px;
+    width: 1px;
+}
+
+
+
+
+/*Footer CSS*/
+
+.footerquejauraispasletempsdefaire{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    margin-top: 330px;
+    text-align: center;
+    color: white;
+    padding-top: 4%;
+}
+
+
+
+
+
+
+
+
+
+
